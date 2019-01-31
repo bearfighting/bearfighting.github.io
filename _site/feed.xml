@@ -5,24 +5,57 @@
     <description>Work hard to be the best!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Jan 2019 13:16:54 -0500</pubDate>
-    <lastBuildDate>Wed, 30 Jan 2019 13:16:54 -0500</lastBuildDate>
+    <pubDate>Wed, 30 Jan 2019 23:24:20 -0500</pubDate>
+    <lastBuildDate>Wed, 30 Jan 2019 23:24:20 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>这个是标题</title>
-        <description>&lt;h1 id=&quot;first-blog&quot;&gt;First Blog&lt;/h1&gt;
+        <title>771-Jewels and Stones</title>
+        <description>&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
 
-&lt;h2 id=&quot;how-to-use-jekyll&quot;&gt;How to use jekyll&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;You’re given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so “a” is considered a different type of stone from “A”.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Example 1:
+
+Input: J = &quot;aA&quot;, S = &quot;aAAbbbb&quot;
+Output: 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Example 2:
+
+Input: J = &quot;z&quot;, S = &quot;ZZ&quot;
+Output: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Solution {
+    public int numJewelsInStones(String J, String S) {
+        int res = 0;
+        for (int i = 0; i &amp;lt; J.length(); i++) {
+            for (int j = 0; j &amp;lt; S.length(); j++) {
+                if (J.charAt(i) == S.charAt(j)) {
+                    res ++;
+                }
+            }
+        }
+        return res;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Fri, 15 Apr 2016 22:11:11 -0400</pubDate>
-        <link>http://localhost:4000/2016/04/firstblog/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/04/firstblog/</guid>
+        <pubDate>Wed, 30 Jan 2019 22:11:11 -0500</pubDate>
+        <link>http://localhost:4000/2019/01/leetcode771/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/leetcode771/</guid>
         
-        <category>Jekyll</category>
-        
-        <category>Github</category>
+        <category>leetcode</category>
         
         
       </item>

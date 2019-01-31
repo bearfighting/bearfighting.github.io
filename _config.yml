@@ -3,9 +3,9 @@ title: Florent's Blog
 subtitle: A blog for memorizing my experience of study
 welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: Work hard to be the best!
-creator: <a href="http://onev.cat">@onevcat</a>
+# creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://vno.onevcat.com"
+url: "http://bearfighting.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -37,10 +37,11 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
+    weibo: bearfighting
+    github: bearfighting
+    twitter: FlorentXing
+#    linkedin: in/xing-wenfeng-87a24290
+    gplus: 112201708712688479753
     mail: florentxingwenfeng@gmail.com
 
 # Google Analytics
