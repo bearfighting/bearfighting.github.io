@@ -22,7 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: CV, description: My Projects, url: 'https://bearfighting.github.io/cv'}
+    - {title: CV, description: My Projects, url: 'https://bearfighting.github.io/resume_2_english/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
